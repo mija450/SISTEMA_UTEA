@@ -1,0 +1,104 @@
+name: appcolegio
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.5.0'  # Restricción mínima recomendada
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.4
+  google_fonts: ^6.2.1
+  lucide_icons: ^0.257.0
+  flutter_speed_dial: ^7.0.0
+  animations: ^2.0.7
+
+  # shared_preferences: ^2.5.3
+  # sqflite: ^2.0.0+4 
+
+  # Para realizar peticiones HTTP
+  http: ^1.3.0
+  
+  # Íconos de iOS
+  cupertino_icons: ^1.0.8
+
+  # Para abrir enlaces externos (por ejemplo, PDFs en el navegador)
+  url_launcher: ^6.2.4
+
+  # Para manejo de fechas, formateo, internacionalización, etc.
+  intl: 0.19.0
+
+  # Para localizaciones en Flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Para seleccionar archivos (si lo necesitas en otra parte de tu proyecto)
+  file_picker: ^8.0.2
+
+  # Para obtener rutas en el sistema de archivos (si lo necesitas)
+  path_provider: any
+
+  # Visor de PDF dentro de la app (puedes quitarlo si no lo usas)
+  syncfusion_flutter_pdfviewer: ^24.1.45
+  sqflite: ^2.4.1
+  csv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/colegio.png
+    - assets/images/configuracion.png
+    - assets/images/perfil.png
+    - assets/images/recursos.png
+    - assets/images/evento.png
+    - assets/images/tarea.png
+    - assets/images/comunicacion.png
+    - assets/images/aprendizaje.png
+
+    - assets/images/biblioteca.png
+    - assets/images/encuesta.png
+    - assets/images/soporte.png
+    - assets/images/reporte.png
+    - assets/images/banner.png
+    - assets/images/banner2.png
+    - assets/images/banner3.png
+    - assets/images/banner4.png
+    - assets/images/banner5.png
+    - assets/images/banner6.png
+    - assets/images/banner7.png
+    - assets/images/banner8.png
+    - assets/images/banner9.png
+    - assets/images/banner10.png
+    - assets/images/banner11.png
+    - assets/images/banner12.png
+
+    - assets/images/colacion_portada.png
+    - assets/images/comunicados_portada.png
+    - assets/images/convocatoria_portada.png
+    - assets/images/eventos_portada.png
+    - assets/images/noticias_portada.png
+
+
+    - assets/images/perfil1.png 
+    - assets/images/actividades1.png 
+    - assets/images/docentes1.png 
+    - assets/images/docente1.png 
+    - assets/images/curso1.png
+    - assets/images/cursos1.png
+    - assets/images/curso2.png
+    - assets/images/aulas1.png
+    - assets/images/aula1.png
+    - assets/images/asistencia1.png
+    - assets/images/soporte1.png
+    - assets/images/configuracion1.png
+    - assets/images/logo_utea_go.png
